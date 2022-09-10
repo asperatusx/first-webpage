@@ -6,16 +6,23 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
     align-items: center;
+    width: 725px;
     justify-content: space-between;
-    width: 50%;
-    align-self: center;
+    margin: auto;
     color: #F9FAF8;
 }
 
 ul {
     display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
     gap: 20px;
 }
 
@@ -24,12 +31,15 @@ a {
     color: #F9FAF8;
 }
 
+.section2 {
+    background-color: #1F2937;
+}
+
 .hero-content {
     display: flex;
-    align-self: center;
-    width: 50%;
     color: #F9FAF8;
-    background-color: #1F2937;
+    width: 725px;
+    margin: auto;
 }
 
 .hero-text {
