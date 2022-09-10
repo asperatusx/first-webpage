@@ -120,3 +120,11 @@ a {
     padding: 5px 25px;
     font-weight: bold;
 }
+
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    background-color: #1F2937;
+    color: white;
+}
