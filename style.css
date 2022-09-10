@@ -86,3 +86,37 @@ a {
     text-align: end;
     font-weight: bold;
 }
+
+.end-section {
+    display: flex;
+    justify-content: center;
+}
+
+.end-container {
+    display: flex;
+    width: 725px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.end-text-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.end-text-header {
+    font-weight: bold;
+}
+
+.end-button button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 25px;
+    font-weight: bold;
+}
