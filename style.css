@@ -129,16 +129,19 @@ a {
 .end-section {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 .end-container {
     display: flex;
     width: 725px;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 70px;
     background-color: #3882f6;
     border-radius: 5px;
+    padding: 0 80px;
 }
 
 .end-text-container {
@@ -162,8 +165,8 @@ a {
 
 .footer {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: #1F2937;
     color: white;
 }
