@@ -76,33 +76,48 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 400px;
 }
 
 .mid-container {
     display: flex;
-    width: 50%;
+    justify-content: center;
+    gap: 60px;
 }
 
 .mid-header-text {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 40px 0;
+
+}
+
+.box {
+    max-width: 140px;
 }
 
 .box img {
-    width: 25%;
+    width: 140px;
+    height: 140px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
 
+
 .quote-section {
-    background-color: #E5E7Eb;
+    background-color: #e6e7eb;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 300px;
 }
 
 .quote {
     width: 725px;
     font-size: 36px;
+    color: #000000bb;
 }
 
 .quote-name {
